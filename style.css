@@ -1,0 +1,84 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+body{
+   font-family: 'Poppins', sans-seri
+   box-sizing: border-box;
+}
+section .section-half{
+   width: 45%;
+   margin-left: 2%;
+   padding-left: 2%;
+   float: left;
+   margin-top: 2%;
+   
+}
+section img{
+   width: 100%;
+}
+
+section h2{
+   color: #000000;
+   font-size: 50px;
+   font-weight: 700;
+   line-height: 100px;
+}
+h2 span{
+   color: rgb(218, 149, 0);
+}
+section h3{
+   font-size: 19px;
+   font-weight: 700;
+   color: #000000;
+   line-height: 70px;
+   }
+
+section a{ 
+   margin-top: 15px;
+   background: #FFC61E;
+   display: inline-block;
+   padding: 10px 40px;
+   font-weight: bold;
+   border-radius: 5px;
+   text-decoration: none;
+   color: white;
+   background-image: linear-gradient(90deg, rgb(156, 108, 5), orange);
+}
+section.first-section{
+   background-image: url("images/top-banner.png");
+   background-repeat: no-repeat;
+   height: 600px;
+}
+section.second-section{
+   background-image: url("images/dream-bg.png");
+   background-repeat: no-repeat;
+   height: 600px;
+   margin-top: 5%;
+   background-position: right;
+}
+section{
+   overflow: hidden;
+   margin-bottom: 5%;
+}
+section.experience h2{
+   font-size: 40px;
+}
+section.second-section img{
+   transform: rotate(-90deg);
+}
+.experience .section-half{
+   width: 40%;
+   margin-left: 4%;
+   height: 250px;
+   padding: 1%;
+   border-radius: 5px;
+   box-shadow: 10px 10px 40px gray;
+}
+
+footer {
+   text-align: center;
+   background: #ddd;
+   padding: 1%;
+   margin-top: 10%;
+}
